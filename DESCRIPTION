@@ -1,0 +1,34 @@
+Package: MLSP
+Type: Package
+Title: Machine Learning Models for Soil Properties
+Version: 0.1.0
+Authors@R: 
+    c(
+        person("Pengyuan", "Chen",
+               role = c("aut", "cre"),
+               email = "pch276@uky.edu"),
+        person("Christopher", "Clingensmith",
+               role = "aut",
+               email = "toshi.m@uky.edu"),
+        person("Chenglong", "Ye",
+               role = "aut",
+               email = "chenglong.ye@uky.edu"),
+        person("Sabine", "Grunwald",
+               role = "aut",
+               email = "toshi.m@uky.edu"),
+        person("Katsutoshi", "Mizuta",
+               role = "aut",
+               email = "toshi.m@uky.edu")
+    )
+Description: Creates a spectroscopy guideline with a highly accurate prediction model for soil properties using machine learning or deep learning algorithms such as LASSO, Random Forest, Cubist, etc., and decide which algorithm generates the best model for different soil types.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Imports: 
+    gsignal,
+    pls,
+    glmnet,
+    Cubist,
+    randomForest
+NeedsCompilation: no
